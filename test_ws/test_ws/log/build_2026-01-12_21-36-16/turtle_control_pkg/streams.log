@@ -1,9 +1,0 @@
-[0.259s] Invoking command in '/home/ribfli/test_ws/build/turtle_control_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ribfli/test_ws/build/turtle_control_pkg -- -j8 -l8
-[0.333s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o[0m
-[3.205s] [01m[K/home/ribfli/test_ws/src/turtle_control_pkg/src/turtle_control.cpp:7:1:[m[K [01;31m[Kerror: [m[Ka storage class can only be specified for objects and functions
-[3.205s]     7 | [01;31m[Kextern[m[K class GoToTarget;
-[3.205s]       | [01;31m[K^~~~~~[m[K
-[5.684s] gmake[2]: *** [CMakeFiles/turtle_control.dir/build.make:76: CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o] Error 1
-[5.685s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtle_control.dir/all] Error 2
-[5.685s] gmake: *** [Makefile:146: all] Error 2
-[5.687s] Invoked command in '/home/ribfli/test_ws/build/turtle_control_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ribfli/test_ws/build/turtle_control_pkg -- -j8 -l8
