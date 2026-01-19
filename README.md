@@ -7,7 +7,7 @@ Robot akan melakukan lokalisasi menggunakan AMCL dan merencanakan jalur (path pl
 
 ## B. Arsitektur Behavoir Tree
 Logika navigasi robot dibangun menggunakan struktur Behavior Tree sederhana namun efektif.
-BehaviorTree-Cpp-Gazebo-Simulation-ROS2/bt.jpeg
+![alt text](bt-1.jpeg)
 #### Penjelasan Node:
 1.  **Root**: Titik awal eksekusi tree.
 2.  **Sequence (`navigate_sequence`)**: Node kontrol tipe *Sequence*. Node ini akan mengeksekusi anak-anaknya (target points) secara berurutan dari kiri ke kanan. Jika salah satu target gagal dicapai, seluruh sequence akan berhenti (return FAILURE). Jika berhasil, ia lanjut ke target berikutnya.
