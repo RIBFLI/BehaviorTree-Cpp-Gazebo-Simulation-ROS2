@@ -1,0 +1,48 @@
+[0.263s] Invoking command in '/home/ribfli/test_ws/build/turtle_control_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ribfli/test_ws/install/nav2_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ribfli/test_ws/build/turtle_control_pkg -- -j8 -l8
+[0.297s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.531s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.564s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.574s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.589s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.605s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.676s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.678s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.755s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.104s] -- Found nav2_msgs: 1.3.10 (/opt/ros/jazzy/share/nav2_msgs/cmake)
+[1.355s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.387s] -- Found rclcpp_action: 28.1.13 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[1.400s] -- Found tf2: 0.36.16 (/opt/ros/jazzy/share/tf2/cmake)
+[1.404s] -- Found tf2_geometry_msgs: 0.36.16 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[1.408s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.410s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.500s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.603s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.603s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ribfli/test_ws/src/turtle_control_pkg/include>
+[1.603s] -- Configured cppcheck exclude dirs and/or files: 
+[1.604s] -- Added test 'lint_cmake' to check CMake code style
+[1.606s] -- Added test 'uncrustify' to check C / C++ code style
+[1.606s] -- Configured uncrustify additional arguments: 
+[1.606s] -- Added test 'xmllint' to check XML markup files
+[1.607s] -- Configuring done (1.3s)
+[1.626s] -- Generating done (0.0s)
+[1.634s] -- Build files have been written to: /home/ribfli/test_ws/build/turtle_control_pkg
+[1.690s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o[0m
+[4.818s] In file included from [01m[K/home/ribfli/test_ws/src/turtle_control_pkg/src/turtle_control.cpp:5[m[K:
+[4.818s] [01m[K/home/ribfli/test_ws/src/turtle_control_pkg/include/turtle_control_pkg/bt_control.hpp:[m[K In member function ‘[01m[Kvirtual BT::NodeStatus GoToTarget::[01;32m[KonStart[m[K()[m[K’:
+[4.818s] [01m[K/home/ribfli/test_ws/src/turtle_control_pkg/include/turtle_control_pkg/bt_control.hpp:38:53:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""s[m[K’
+[4.818s]    38 |         if (!action_client_->wait_for_action_server([01;31m[K2s[m[K))
+[4.818s]       |                                                     [01;31m[K^~[m[K
+[4.830s] [01m[K/home/ribfli/test_ws/src/turtle_control_pkg/include/turtle_control_pkg/bt_control.hpp:[m[K In member function ‘[01m[Kgeometry_msgs::msg::PoseStamped GoToTarget::[01;32m[KmakePose[m[K(double, double, double)[m[K’:
+[4.831s] [01m[K/home/ribfli/test_ws/src/turtle_control_pkg/include/turtle_control_pkg/bt_control.hpp:98:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+[4.831s]    98 |         [01;31m[Ktf2[m[K::Quaternion q;
+[4.831s]       |         [01;31m[K^~~[m[K
+[4.839s] [01m[K/home/ribfli/test_ws/src/turtle_control_pkg/include/turtle_control_pkg/bt_control.hpp:99:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kq[m[K’ was not declared in this scope
+[4.839s]    99 |         [01;31m[Kq[m[K.setRPY(0, 0, yaw);
+[4.839s]       |         [01;31m[K^[m[K
+[4.839s] [01m[K/home/ribfli/test_ws/src/turtle_control_pkg/include/turtle_control_pkg/bt_control.hpp:100:33:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+[4.839s]   100 |         pose.pose.orientation = [01;31m[Ktf2[m[K::toMsg(q);
+[4.839s]       |                                 [01;31m[K^~~[m[K
+[6.387s] gmake[2]: *** [CMakeFiles/turtle_control.dir/build.make:76: CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o] Error 1
+[6.387s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtle_control.dir/all] Error 2
+[6.388s] gmake: *** [Makefile:146: all] Error 2
+[6.390s] Invoked command in '/home/ribfli/test_ws/build/turtle_control_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ribfli/test_ws/install/nav2_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ribfli/test_ws/build/turtle_control_pkg -- -j8 -l8

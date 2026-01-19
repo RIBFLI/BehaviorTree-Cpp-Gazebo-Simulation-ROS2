@@ -1,0 +1,19 @@
+[100%] Built target groot_nav2_bridge
+-- Install configuration: ""
+-- Installing: /home/ribfli/test_ws/install/behavior_tree_test/lib/behavior_tree_test/groot_nav2_bridge
+-- Set non-toolchain portion of runtime path of "/home/ribfli/test_ws/install/behavior_tree_test/lib/behavior_tree_test/groot_nav2_bridge" to ""
+-- Installing: /home/ribfli/test_ws/install/behavior_tree_test/share/ament_index/resource_index/package_run_dependencies/behavior_tree_test
+-- Installing: /home/ribfli/test_ws/install/behavior_tree_test/share/ament_index/resource_index/parent_prefix_path/behavior_tree_test
+-- Installing: /home/ribfli/test_ws/install/behavior_tree_test/share/behavior_tree_test/environment/ament_prefix_path.sh
+-- Installing: /home/ribfli/test_ws/install/behavior_tree_test/share/behavior_tree_test/environment/ament_prefix_path.dsv
+-- Installing: /home/ribfli/test_ws/install/behavior_tree_test/share/behavior_tree_test/environment/path.sh
+-- Installing: /home/ribfli/test_ws/install/behavior_tree_test/share/behavior_tree_test/environment/path.dsv
+-- Installing: /home/ribfli/test_ws/install/behavior_tree_test/share/behavior_tree_test/local_setup.bash
+-- Installing: /home/ribfli/test_ws/install/behavior_tree_test/share/behavior_tree_test/local_setup.sh
+-- Installing: /home/ribfli/test_ws/install/behavior_tree_test/share/behavior_tree_test/local_setup.zsh
+-- Installing: /home/ribfli/test_ws/install/behavior_tree_test/share/behavior_tree_test/local_setup.dsv
+-- Installing: /home/ribfli/test_ws/install/behavior_tree_test/share/behavior_tree_test/package.dsv
+-- Installing: /home/ribfli/test_ws/install/behavior_tree_test/share/ament_index/resource_index/packages/behavior_tree_test
+-- Installing: /home/ribfli/test_ws/install/behavior_tree_test/share/behavior_tree_test/cmake/behavior_tree_testConfig.cmake
+-- Installing: /home/ribfli/test_ws/install/behavior_tree_test/share/behavior_tree_test/cmake/behavior_tree_testConfig-version.cmake
+-- Installing: /home/ribfli/test_ws/install/behavior_tree_test/share/behavior_tree_test/package.xml

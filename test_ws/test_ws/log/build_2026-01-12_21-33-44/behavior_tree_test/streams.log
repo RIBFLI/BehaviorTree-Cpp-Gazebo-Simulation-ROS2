@@ -1,0 +1,22 @@
+[0.028s] Invoking command in '/home/ribfli/test_ws/build/behavior_tree_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ribfli/test_ws/build/behavior_tree_test -- -j8 -l8
+[0.297s] [100%] Built target groot_nav2_bridge
+[0.302s] Invoked command in '/home/ribfli/test_ws/build/behavior_tree_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ribfli/test_ws/build/behavior_tree_test -- -j8 -l8
+[0.314s] Invoking command in '/home/ribfli/test_ws/build/behavior_tree_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ribfli/test_ws/build/behavior_tree_test
+[0.324s] -- Install configuration: ""
+[0.324s] -- Up-to-date: /home/ribfli/test_ws/install/behavior_tree_test/lib/behavior_tree_test/groot_nav2_bridge
+[0.325s] -- Up-to-date: /home/ribfli/test_ws/install/behavior_tree_test/share/ament_index/resource_index/package_run_dependencies/behavior_tree_test
+[0.325s] -- Up-to-date: /home/ribfli/test_ws/install/behavior_tree_test/share/ament_index/resource_index/parent_prefix_path/behavior_tree_test
+[0.325s] -- Up-to-date: /home/ribfli/test_ws/install/behavior_tree_test/share/behavior_tree_test/environment/ament_prefix_path.sh
+[0.325s] -- Up-to-date: /home/ribfli/test_ws/install/behavior_tree_test/share/behavior_tree_test/environment/ament_prefix_path.dsv
+[0.325s] -- Up-to-date: /home/ribfli/test_ws/install/behavior_tree_test/share/behavior_tree_test/environment/path.sh
+[0.325s] -- Up-to-date: /home/ribfli/test_ws/install/behavior_tree_test/share/behavior_tree_test/environment/path.dsv
+[0.325s] -- Up-to-date: /home/ribfli/test_ws/install/behavior_tree_test/share/behavior_tree_test/local_setup.bash
+[0.325s] -- Up-to-date: /home/ribfli/test_ws/install/behavior_tree_test/share/behavior_tree_test/local_setup.sh
+[0.325s] -- Up-to-date: /home/ribfli/test_ws/install/behavior_tree_test/share/behavior_tree_test/local_setup.zsh
+[0.325s] -- Up-to-date: /home/ribfli/test_ws/install/behavior_tree_test/share/behavior_tree_test/local_setup.dsv
+[0.326s] -- Installing: /home/ribfli/test_ws/install/behavior_tree_test/share/behavior_tree_test/package.dsv
+[0.326s] -- Up-to-date: /home/ribfli/test_ws/install/behavior_tree_test/share/ament_index/resource_index/packages/behavior_tree_test
+[0.326s] -- Up-to-date: /home/ribfli/test_ws/install/behavior_tree_test/share/behavior_tree_test/cmake/behavior_tree_testConfig.cmake
+[0.326s] -- Up-to-date: /home/ribfli/test_ws/install/behavior_tree_test/share/behavior_tree_test/cmake/behavior_tree_testConfig-version.cmake
+[0.326s] -- Up-to-date: /home/ribfli/test_ws/install/behavior_tree_test/share/behavior_tree_test/package.xml
+[0.328s] Invoked command in '/home/ribfli/test_ws/build/behavior_tree_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ribfli/test_ws/build/behavior_tree_test

@@ -1,0 +1,27 @@
+[0.275s] Invoking command in '/home/ribfli/test_ws/build/turtle_control_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ribfli/test_ws/install/nav2_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ribfli/test_ws/build/turtle_control_pkg -- -j8 -l8
+[0.351s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o[0m
+[7.001s] [100%] [32m[1mLinking CXX executable turtle_control[0m
+[8.649s] [100%] Built target turtle_control
+[8.662s] Invoked command in '/home/ribfli/test_ws/build/turtle_control_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ribfli/test_ws/install/nav2_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ribfli/test_ws/build/turtle_control_pkg -- -j8 -l8
+[8.663s] Invoking command in '/home/ribfli/test_ws/build/turtle_control_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ribfli/test_ws/install/nav2_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ribfli/test_ws/build/turtle_control_pkg
+[8.672s] -- Install configuration: ""
+[8.672s] -- Installing: /home/ribfli/test_ws/install/turtle_control_pkg/lib/turtle_control_pkg/turtle_control
+[8.674s] -- Set non-toolchain portion of runtime path of "/home/ribfli/test_ws/install/turtle_control_pkg/lib/turtle_control_pkg/turtle_control" to ""
+[8.674s] -- Up-to-date: /home/ribfli/test_ws/install/turtle_control_pkg/share/turtle_control_pkg/config
+[8.674s] -- Up-to-date: /home/ribfli/test_ws/install/turtle_control_pkg/share/turtle_control_pkg/config/behavior.xml
+[8.675s] -- Up-to-date: /home/ribfli/test_ws/install/turtle_control_pkg/share/ament_index/resource_index/package_run_dependencies/turtle_control_pkg
+[8.675s] -- Installing: /home/ribfli/test_ws/install/turtle_control_pkg/share/ament_index/resource_index/parent_prefix_path/turtle_control_pkg
+[8.675s] -- Up-to-date: /home/ribfli/test_ws/install/turtle_control_pkg/share/turtle_control_pkg/environment/ament_prefix_path.sh
+[8.675s] -- Up-to-date: /home/ribfli/test_ws/install/turtle_control_pkg/share/turtle_control_pkg/environment/ament_prefix_path.dsv
+[8.675s] -- Up-to-date: /home/ribfli/test_ws/install/turtle_control_pkg/share/turtle_control_pkg/environment/path.sh
+[8.675s] -- Up-to-date: /home/ribfli/test_ws/install/turtle_control_pkg/share/turtle_control_pkg/environment/path.dsv
+[8.676s] -- Up-to-date: /home/ribfli/test_ws/install/turtle_control_pkg/share/turtle_control_pkg/local_setup.bash
+[8.676s] -- Up-to-date: /home/ribfli/test_ws/install/turtle_control_pkg/share/turtle_control_pkg/local_setup.sh
+[8.676s] -- Up-to-date: /home/ribfli/test_ws/install/turtle_control_pkg/share/turtle_control_pkg/local_setup.zsh
+[8.676s] -- Up-to-date: /home/ribfli/test_ws/install/turtle_control_pkg/share/turtle_control_pkg/local_setup.dsv
+[8.676s] -- Installing: /home/ribfli/test_ws/install/turtle_control_pkg/share/turtle_control_pkg/package.dsv
+[8.676s] -- Up-to-date: /home/ribfli/test_ws/install/turtle_control_pkg/share/ament_index/resource_index/packages/turtle_control_pkg
+[8.676s] -- Up-to-date: /home/ribfli/test_ws/install/turtle_control_pkg/share/turtle_control_pkg/cmake/turtle_control_pkgConfig.cmake
+[8.676s] -- Up-to-date: /home/ribfli/test_ws/install/turtle_control_pkg/share/turtle_control_pkg/cmake/turtle_control_pkgConfig-version.cmake
+[8.677s] -- Up-to-date: /home/ribfli/test_ws/install/turtle_control_pkg/share/turtle_control_pkg/package.xml
+[8.678s] Invoked command in '/home/ribfli/test_ws/build/turtle_control_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ribfli/test_ws/install/nav2_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ribfli/test_ws/build/turtle_control_pkg

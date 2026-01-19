@@ -1,0 +1,15 @@
+[0.260s] Invoking command in '/home/ribfli/test_ws/build/turtle_control_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ribfli/test_ws/build/turtle_control_pkg -- -j8 -l8
+[0.335s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o[0m
+[3.125s] In file included from [01m[K/home/ribfli/test_ws/src/turtle_control_pkg/src/turtle_control.cpp:5[m[K:
+[3.125s] [01m[K/home/ribfli/test_ws/src/turtle_control_pkg/include/turtle_control_pkg/bt_control.hpp:[m[K In member function ‘[01m[Kvoid GoToTarget::[01;32m[KodomCallback[m[K(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.126s] [01m[K/home/ribfli/test_ws/src/turtle_control_pkg/include/turtle_control_pkg/bt_control.hpp:109:22:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+[3.126s]   109 |         robot_yaw_ = [01;31m[Ktf2[m[K::getYaw(msg->pose.pose.orientation);
+[3.126s]       |                      [01;31m[K^~~[m[K
+[3.126s] [01m[K/home/ribfli/test_ws/src/turtle_control_pkg/src/turtle_control.cpp:[m[K At global scope:
+[3.126s] [01m[K/home/ribfli/test_ws/src/turtle_control_pkg/src/turtle_control.cpp:7:1:[m[K [01;31m[Kerror: [m[Ka storage class can only be specified for objects and functions
+[3.126s]     7 | [01;31m[Kextern[m[K class GoToTarget;
+[3.126s]       | [01;31m[K^~~~~~[m[K
+[5.465s] gmake[2]: *** [CMakeFiles/turtle_control.dir/build.make:76: CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o] Error 1
+[5.465s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtle_control.dir/all] Error 2
+[5.465s] gmake: *** [Makefile:146: all] Error 2
+[5.468s] Invoked command in '/home/ribfli/test_ws/build/turtle_control_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ribfli/test_ws/build/turtle_control_pkg -- -j8 -l8
