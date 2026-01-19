@@ -53,6 +53,8 @@ sudo apt install ros-$ROS_DISTRO-navigation2 ros-$ROS_DISTRO-nav2-bringup ros-$R
    ```bash
     source install/setup.bash
     ```
+4. Ubah path behavior.xml sesuaikan dengan path kita
+
 ## E. Cara Menjalankan (Usage)
 Untuk menjalankan simulasi robot patrol, jalankan perintah berikut pada terminal yang berbeda (jangan lupa source install/setup.bash di setiap terminal):
 1. Launch Simulasi Gazebo:
