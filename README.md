@@ -41,7 +41,7 @@ sudo apt install ros-$ROS_DISTRO-navigation2 ros-$ROS_DISTRO-nav2-bringup ros-$R
 1. Clone Repositori ini:
    ```bash
     git clone https://github.com/RIBFLI/BehaviorTree-Cpp-Gazebo-Simulation-ROS2.git
-    cd src\nav2_mobile_robot
+    cd test_ws\src\nav2_mobile_robot
     git clone https://github.com/RIBFLI/nav2_mobile_robot.git
     ```
 2. Build Workspace:
