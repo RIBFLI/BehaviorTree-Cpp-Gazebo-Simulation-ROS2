@@ -77,6 +77,8 @@ Untuk menjalankan simulasi robot patrol, jalankan perintah berikut pada terminal
    ```bash
     ros2 run turtle_control_pkg turtle_control
     ```
+Video Simulasi :  https://youtu.be/ZbFc2T8g4jI
+
 # 👨‍💻 Author
 - [Muhammad Ribfli] Mahasiswa Teknik Robotika - Politeknik Negeri Batam
 - Mata Kuliah: RE703 - Kendali Robotika
